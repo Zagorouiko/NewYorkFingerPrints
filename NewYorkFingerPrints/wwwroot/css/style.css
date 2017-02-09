@@ -284,6 +284,7 @@ a:focus {
 }
 .span9 {
   width: 700px;
+  padding-left: 30%;
 }
 .span8 {
   width: 620px;
