@@ -32,10 +32,16 @@
     @Html.Raw(JavaScriptSnippet.FullScript)
 
 </head>
-    @Html.Partial("_NavBar")
+@Html.Partial("_NavBar")
 <body>
     <div class="container body-content">
-        @RenderBody()
+        <div class="container">
+            <div class="row">
+                <div class="main span9">
+                    @RenderBody()
+                </div>
+            </div>
+        </div>
         <footer>
             @*<p>&copy; 2017 - NewYorkFingerPrints</p>*@
         </footer>
