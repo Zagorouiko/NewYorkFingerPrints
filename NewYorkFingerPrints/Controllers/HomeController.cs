@@ -30,5 +30,23 @@ namespace NewYorkFingerPrints.Controllers
         {
             return View();
         }
+
+        [Route("Contact")]
+        public IActionResult Contact()
+        {
+            return View();
+        }
+
+        [Route("FAQ")]
+        public IActionResult FAQ()
+        {
+            return View();
+        }
+
+        [Route("About")]
+        public IActionResult About()
+        {
+            return View();
+        }
     }
 }
