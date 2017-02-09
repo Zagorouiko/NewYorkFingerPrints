@@ -13,21 +13,20 @@ namespace NewYorkFingerPrints.Controllers
             return View();
         }
 
-        public IActionResult About()
+        [Route("Services")]
+        public IActionResult Services()
         {
-            ViewData["Message"] = "Your application description page.";
-
             return View();
         }
 
-        public IActionResult Contact()
+        [Route("Businesses")]
+        public IActionResult Businesses()
         {
-            ViewData["Message"] = "Your contact page.";
-
             return View();
         }
 
-        public IActionResult Error()
+        [Route("Individuals")]
+        public IActionResult Individuals()
         {
             return View();
         }

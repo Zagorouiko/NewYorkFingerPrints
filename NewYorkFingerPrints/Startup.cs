@@ -36,6 +36,7 @@ namespace NewYorkFingerPrints
         {
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
+            app.UseMvc();
 
             if (env.IsDevelopment())
             {
