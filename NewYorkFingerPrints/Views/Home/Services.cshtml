@@ -2,77 +2,182 @@
     ViewBag.Title = "Services";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-<!DOCTYPE html>
-<!--
-                            |   _)             |            _)  |
-   _ \  _ \  _ \   _` |   _| _|  |   _|  |  |  |   _` |   _| |   _|  |  |
-  .__/ .__/ .__/ \__,_| _| \__| _| \__| \_,_| _| \__,_| _|  _| \__| \_, |
- _|   _|   _|                                                       ___/
-                                                tailored web design
--->
-<!--[if lt IE 7]> <html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]> <html lang="en" class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]> <html lang="en" class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js" lang="en">
-<!--<![endif]-->
+<head>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-2454020-5', 'auto');
+        ga('send', 'pageview');
+    </script>
+</head>
 <body class="content">
+
+
+    <!-- .................................... $background slider .................................... -->
+    <ul id="cbp-bislideshow" class="cbp-bislideshow hidden-phone">
+        <li><img src="img/Ink-Fingerprint-Card.jpg" alt="Inked Fingerprint Card" /></li>
+    </ul>
+
     <!-- .................................... $Page .................................... -->
     <section class="section-content section-content-sidebar">
         <h1 class="section-title">
             Fingerprint Services
+            <small>Ink and Electronic Fingerprinting</small>
         </h1>
+        <h5 class="alert alert-info">Call now to schedule an appointment for ink fingerprints or an FBI background check!</h5>
+
         <div class="row">
-            <div class="span8">
+            <div class="span7">
                 <article>
                     <p>
-                        Print Scan is a New York based fingerprinting company servicing business customers and individuals. Our company fingerprinters are all experienced technicians who provide professional and efficient fingerprinting for any and all needs. We provide ink and Live Scan fingerprinting in your location or in one of our three locations based in either Manhattan or Long Island by appointment only.
+                        New York Fingerprints is a New York based fingerprinting company servicing businesses and individuals.
+                        Our company is comprised of experienced fingerprint technicians who provide professional and efficient fingerprinting for any and all needs.
+                        We provide ink and Live Scan fingerprinting in your location or in one of our four locations based in Manhattan, Long Island, and White Plains by appointment only.
                     </p>
                     <p>
-                        We serve companies, institutions, and individuals needing print cards or electronic fingerprinting. We provide these services in the tri-state area and beyond in some cases.
+                        We serve companies, institutions, and individuals needing print cards or electronic fingerprinting.
+                        We provide these services in the tri-state area and throughout the world.
                     </p>
-                    <p>
-                        On site professional fingerprint cards and mobile Live Scan. All by professional technicians!
-                    </p>
-                    <h2>
-                        Print Scan covers all of your fingerprinting needs:
-                    </h2>
+                    <h3>
+                        PrintScan covers all of your fingerprinting needs
+                    </h3>
                     <ul>
                         <li>We offer competitive rates.</li>
                         <li>We do everything we can to accommodate our clients.</li>
                         <li>If you need something done in a rush, let us know.</li>
                         <li>We can always get to you within one business day if needed.</li>
-                        <li>Payments Accepted: Check, Cash, Visa, Mastercard, American Express, and Discover</li>
-                        <li>Repeat businesses can be billed monthly</li>
+                        <li>Payments Accepted: Check, Cash, Visa, Mastercard, American Express, and Discover.</li>
                         <li>Invoicing available</li>
                     </ul>
-                    <h2>
-                        Who needs Print Scan?
-                    </h2>
+                    <h3>
+                        Who needs PrintScan?
+                    </h3>
                     <ul>
-                        <li>Brokerage Firms and Banks- FINRA, SEC,NFA,ABA, etc.</li>
-                        <li>Children's fingerprinting</li>
+                        <li>Brokerage Firms and Banks- FINRA, SEC, NFA, ABA, etc.</li>
                         <li>All out of state fingerprinting requirements</li>
                         <li>NY State fingerprinting requirements</li>
                         <li>Insurance companies</li>
-                        <li>Board of Education (ink cards only) - We are not a part of NYSED Live Scan program</li>
-                        <li>Mortgage Lenders both ink for out of state requirements as well as NMLS</li>
+                        <li>Mortgage Lenders - both ink for out of state requirements as well as NMLS</li>
                         <li>Immigration for other Countries (Not United States)</li>
-                        <li>Security clearance for governement jobs/contracts</li>
+                        <li>Security clearance for government jobs/contracts</li>
                         <li>Gaming licenses</li>
                         <li>Public transporation</li>
                         <li>Higher education</li>
-                        <li>FBI Good conduct searches</li>
+                        <li>FBI Good Conduct searches</li>
                         <li>Medical field</li>
                         <li>Phamacutical companies</li>
-                        <li>Individuals that need fingerprints to sit on Board of Directors for companies</li>
+                        <li>Children's fingerprinting</li>
+                        <li>Individuals that need fingerprints to sit on the Board of Directors for companies</li>
                     </ul>
                     <p>
-                        And any other licenses, registrations, certification, individuals or company that have a need or a legal requirement to be fingerprinted.
+                        And any other licenses, registrations, or certifications that have a need or a legal requirement to be fingerprinted
                     </p>
+                </article>
+            </div>
+            <div class="span2">
+                <aside>
+                    <div class="widget widget-location" style="font-size: 0.7rem">
+                        <h5 class="widget-title text-center">Locations</h5>
+                        <div class="widget-content">
+                            <ul class="unstyled">
+                                <li>
+                                    <a href="#">
+                                        Manhattan
+                                    </a>
+                                    <address>
+                                        247 W 35th Street<br />
+                                        Suite 201<br />
+                                        New York, NY 10001<br />
+                                        <a href="tel:+16466634404">(646) 663-4404</a>
+                                    </address>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Hicksville, NY
+                                    </a>
+                                    <address>
+                                        958 S Broadway<br />
+                                        Hicksville, NY 11801<br />
+                                        <a href="tel:+15167261350">(516) 726-1350</a>
+                                    </address>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Kings Park, NY
+                                    </a>
+                                    <address>
+                                        21 Pulaski Road<br />
+                                        Kings Park, NY 11754<br />
+                                        <a href="tel:+16314032482">(631) 403-2482</a>
+                                    </address>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        White Plains, NY
+                                    </a>
+                                    <address>
+                                        75 S Broadway<br />
+                                        4th Floor<br />
+                                        White Plains, NY 10601<br />
+                                        <a href="tel:+19143686664">(914) 368-6664</a>
+                                    </address>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+
+        <!-- .................................... $footer .................................... -->
+
+        <div class="row widget-footer">
+            <div class="span9">
+                <hr />
+
+                <article>
+                    <div class="span2">
+                        <p style="font-weight: bold">Services</p>
+                        <ul class="unstyled">
+                            <li><a href="services.html">Fingerprints</a></li>
+                            <li><a href="appointments.html">Appointments</a></li>
+                            <li><a href="ink_fingerprinting.html">Ink Fingerprint Services</a></li>
+                            <li><a href="live_scan.html">Live Scan Fingerprint Services</a></li>
+                            <li><a href="FBI-Channeling.html">FBI Background Check</a></li>
+                            <li><a href="record_archiving.html">Fingerprint Archiving</a></li>
+                            <li><a href="immigration.html">Immigration</a></li>
+                            <li><a href="child-identification.html">Child Identification (KidPrint)</a></li>
+                            <li><a href="Mobile-Fingerprints.html">On-Site Fingerprinting</a></li>
+                            <li><a href="Notary_Services.html">Notary Public</a></li>
+                        </ul>
+                    </div>
+                    <div class="span2">
+                        <p style="font-weight: bold">Products</p>
+                        <ul class="unstyled">
+                            <li><a href="live-scan-equipment.html">Live Scan Equipment Solutions</a></li>
+                            <li><a href="software-hardware.html">Software & Hardware</a></li>
+                            <li><a href="Purchase-fd-258-cards.html">Fingerprint Cards</a></li>
+                            <li><a href="become-partner.html">Become a Partner</a></li>
+                            <li><a href="customization.html">Customization</a></li>
+                        </ul>
+                    </div>
+                    <div class="span4">
+                        <p style="font-weight: bold">Agencies</p>
+                        <ul class="unstyled">
+                            <li><a href="Electronic_filing_FINRA_ABA.html">FINRA Channeling</a></li>
+                            <li><a href="national-futures-association.html">National Futures Association</a></li>
+                            <li><a href="ny_state_reqs.html">New York State Fingerprinting</a></li>
+                            <li><a href="twic.html">Transportation Worker Identification Credential (TWIC)</a></li>
+                            <li><a href="nmls.html">National Mortgage Licensing System (NMLS)</a></li>
+                        </ul>
+                    </div>
                 </article>
             </div>
         </div>
     </section>
 </body>
-</html>
